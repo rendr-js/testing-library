@@ -1,7 +1,6 @@
 import { mount as rendrjsmount, Elem } from '@rendrjs/core';
 import events from '@testing-library/user-event';
-
-export * from '@testing-library/dom';
+export * as screen from '@testing-library/dom';
 
 export const userEvent = {
     setup: events.setup,
