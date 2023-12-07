@@ -23,7 +23,7 @@ export * as screen from '@testing-library/dom';
 // };
 
 export const userEvent = {
-    setup: () => events.setup(),
+    setup: () => events.default.setup(),
 };
 
 export const mount = (elem: Elem): HTMLElement => {
