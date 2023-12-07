@@ -1,6 +1,6 @@
 {
   "name": "@rendrjs/testing-library",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Official testing library for Rendrjs",
   "main": "dist/index.js",
   "scripts": {
