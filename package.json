@@ -2,7 +2,6 @@
   "name": "@rendrjs/testing-library",
   "version": "0.0.22",
   "description": "Official testing library for Rendrjs",
-  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "pub": "npm version patch && tsc && npm publish"
@@ -11,7 +10,7 @@
     "@rendrjs/core": "^0.1.230"
   },
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@testing-library/dom": "^9.3.3",
     "@testing-library/user-event": "^14.5.1",
     "typescript": "^5.3.3"
