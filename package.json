@@ -6,6 +6,7 @@
   "scripts": {
     "pub": "npm version patch && tsc && npm publish"
   },
+  "type": "module",
   "license": "ISC",
   "dependencies": {
     "@testing-library/dom": "^9.3.3",
