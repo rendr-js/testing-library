@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "pub": "npm version patch && npx tsc && npm publish"
+    "pub": "npm version patch && tsc && npm publish"
   },
   "peerDependencies": {
     "@rendrjs/core": "^0.1.230"
